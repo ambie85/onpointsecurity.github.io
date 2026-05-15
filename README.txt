@@ -1,0 +1,1 @@
+Upload all files to GitHub. Keep index.html in the root folder. The first FormSubmit submission may require email confirmation at onpointprotection2@gmail.com.
