@@ -36,33 +36,51 @@
       <h2>Inquire Form</h2>
       <p>We Appreciate Your Interest! Please fill out the form below so we can learn more about your event and tailor our services to meet your needs. Our team will contact you as soon as possible.</p>
 
-      <form class="contact-form" action="https://formsubmit.co/onpointprotection2@gmail.com" method="POST">
-  <input type="hidden" name="_subject" value="New Security Inquiry from OnPoint Protection Website">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
+      <form class="contact-form"
+      action="mailto:onpointprotection2@gmail.com"
+      method="post"
+      enctype="text/plain">
 
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="email" name="email" placeholder="Email Address" required>
-        <input type="tel" name="phone" placeholder="Phone Number" required>
+  <input type="text"
+         name="Full Name"
+         placeholder="Full Name"
+         required>
 
-        <select name="service_needed" required>
-          <option value="">Select Service Needed</option>
-          <option value="Event Security">Event Security</option>
-          <option value="VIP / Executive Protection">VIP / Executive Protection</option>
-          <option value="Commercial / Business Security">Commercial / Business Security</option>
-          <option value="Mobile Patrol Services">Mobile Patrol Services</option>
-          <option value="Access Control & Entry">Access Control & Entry</option>
-          <option value="Crowd Control">Crowd Control</option>
-          <option value="Traffic Control & Parking Management">Traffic Control & Parking Management</option>
-          <option value="Other">Other</option>
-        </select>
+  <input type="email"
+         name="Email"
+         placeholder="Email Address"
+         required>
 
-        <input type="text" name="event_location" placeholder="Event or Service Location">
-        <input type="date" name="date_needed">
-        <input type="text" name="estimated_guests" placeholder="Estimated Number of Guests / People">
-        <textarea name="message" placeholder="Tell us more about your security needs"></textarea>
-        <button type="submit">Submit Inquiry</button>
-      </form>
+  <input type="tel"
+         name="Phone Number"
+         placeholder="Phone Number"
+         required>
+
+  <select name="Service Needed" required>
+    <option value="">Select Service Needed</option>
+    <option>Event Security</option>
+    <option>VIP / Executive Protection</option>
+    <option>Commercial / Business Security</option>
+    <option>Mobile Patrol Services</option>
+    <option>Access Control & Entry</option>
+    <option>Crowd Control</option>
+    <option>Traffic Control & Parking Management</option>
+  </select>
+
+  <input type="text"
+         name="Event Location"
+         placeholder="Event Location">
+
+  <input type="date"
+         name="Date Needed">
+
+  <textarea name="Security Needs"
+            placeholder="Tell us more about your security needs"></textarea>
+
+  <button type="submit">Submit Inquiry</button>
+
+</form>
+
     </div>
 
     <aside class="contact-box">
